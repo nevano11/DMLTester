@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DMLTester"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DMLTester">
+				<Option output="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/DMLTester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 DMLTester"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DMLTester/fast">
+				<Option output="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/DMLTester" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 DMLTester/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/Criteria.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/Criteria.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/CriteriaRelation.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/CriteriaRelation.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/EstimateVector.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/EstimateVector.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/MathModel.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/MathModel.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/main.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
