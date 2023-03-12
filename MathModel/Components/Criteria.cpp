@@ -11,10 +11,19 @@ Criteria::Criteria(int id, std::string name, CriteriaType criteriaType) {
 Criteria::Criteria(int id, std::string name) {
     this->id = id;
     this->name = std::move(name);
-    this->type = MAXIMIZATION;
+    this->type = CriteriaType::MAXIMIZATION;
 }
 
-int Criteria::getId() {
+Criteria::Criteria(const Criteria &other) : id(other.id), name(other.name), type(other.type)
+{
+}
+
+Criteria::~Criteria()
+{
+}
+
+int Criteria::getId()
+{
     return id;
 }
 

@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-enum CriteriaType {MAXIMIZATION, MINIMIZATION};
+enum class CriteriaType {MAXIMIZATION, MINIMIZATION};
 
 class Criteria {
 private:
@@ -13,6 +13,9 @@ private:
 public:
     Criteria(int id, std::string name, CriteriaType criteriaType);
     Criteria(int id, std::string name);
+    Criteria(const Criteria& other);
+    ~Criteria();
+
     int getId();
     std::string getName();
     CriteriaType getType();

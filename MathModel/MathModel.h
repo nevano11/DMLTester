@@ -6,20 +6,28 @@
 
 class MathModel {
 private:
-    Criteria* criteriaArray;
+    Criteria** criteriaArray;
     int criteriaCount;
-    EstimateVector* estimateVectorArray;
+    EstimateVector** estimateVectorArray;
     int estimateVectorCount;
+
+    bool isDoubleEqual(double a, double b);
+
+public:
+    MathModel(Criteria **criteriaArray, int criteriaCount, EstimateVector **estimateVectorArray, int estimateVectorCount);
+    MathModel(const MathModel& other);
+    ~MathModel();
+    
+    Criteria** getCriteriaArray();
+    EstimateVector** getEstimateVectorArray();
+    int getCriteriaCount();
+    int getEstimateVectorCount();
+
+    Criteria* getCriteriaById(int id);
+    Criteria* getCriteriaByName(std::string name);
 
     int findCriteriaNumById(int criteriaId);
     int findCriteriaNumByName(std::string criteriaName);
-
-public:
-    MathModel(Criteria* criteriaArray, int criteriaCount, EstimateVector* estimateVectorArray, int estimateVectorCount);
-    Criteria* getCriteriaArray();
-    EstimateVector* getEstimateVectorArray();
-    int getCriteriaCount();
-    int getEstimateVectorCount();
 
     double sumByCriteria(int criteriaId);
     double sumByCriteria(std::string criteriaName);
@@ -29,6 +37,12 @@ public:
 
     double minByCriteria(int criteriaId);
     double minByCriteria(std::string criteriaName);
+
+    void deleteEstimateVectorIfMarkNotEqualValue(int criteriaNum, double value);
+
+    bool isValid();
+
+    std::string estimateVectorArrayToString();
 };
 
 #endif //DMLTESTER_MATHMODEL_H

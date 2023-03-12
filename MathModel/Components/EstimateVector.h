@@ -11,10 +11,15 @@ private:
     int criteriaCount;
 public:
     EstimateVector(int id, std::string name, double* markArray, int criteriaCount);
+    EstimateVector(const EstimateVector& other);
+    ~EstimateVector();
+
     int getId();
     std::string getName();
     double* getMarks();
     int getCriteriaCount();
+
+    std::string toString();
 };
 
 
