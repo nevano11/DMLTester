@@ -25,7 +25,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -45,7 +46,8 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
@@ -78,10 +80,103 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.cpp">
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelation.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelationConverter.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelationConverter.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/MultiStepMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/OneStepMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/ProgressingAllAlternativesMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/SequentialNarrowingAlternativesMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo.h">
 			<Option target="DMLTester"/>
 		</Unit>
 		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperator.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/SolveStatus.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/SolveStatus.h">
 			<Option target="DMLTester"/>
 		</Unit>
 		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/Criteria.cpp">
@@ -90,22 +185,37 @@
 		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/Criteria.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/CriteriaRelation.cpp">
-			<Option target="DMLTester"/>
-		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/CriteriaRelation.h">
-			<Option target="DMLTester"/>
-		</Unit>
 		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/EstimateVector.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
 		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/EstimateVector.h">
 			<Option target="DMLTester"/>
 		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizer.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.h">
+			<Option target="DMLTester"/>
+		</Unit>
 		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/MathModel.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
 		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/MathModel.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/MultiCriteriaMethodSolver.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/Solver.h">
 			<Option target="DMLTester"/>
 		</Unit>
 		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/main.cpp">

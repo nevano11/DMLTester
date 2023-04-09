@@ -3,12 +3,16 @@
 
 #include "../DecisionMakingMethod.h"
 #include "../../MathModel/MathModel.h"
+#include "../../CriteriaRelation/CriteriaRelation.h"
+#include "../../CriteriaRelation/CriteriaRelationConverter.h"
 
 class MultiCriteriaMethod : public DecisionMakingMethod {
 protected:
     MathModel* mathModel;
+    CriteriaRelation* relation;
 public:
     virtual void setMathModel(MathModel* mathModel) = 0;
+    virtual void setCriteriaRelation(CriteriaRelation* relation) = 0;
 };
 
 #endif //DMLTESTER_MULTICRITERIAMETHOD_H

@@ -5,7 +5,7 @@ LexicographicOptimization::LexicographicOptimization()
     this->solveStatus = new SolveStatus(None);
 }
 
-LexicographicOptimization::LexicographicOptimization(MathModel *mathModel, AllCriteriaRelation *relation)
+LexicographicOptimization::LexicographicOptimization(MathModel *mathModel, CriteriaRelation *relation)
 {
     this->mathModel = new MathModel(*mathModel);
     this->relation = relation;
@@ -14,27 +14,27 @@ LexicographicOptimization::LexicographicOptimization(MathModel *mathModel, AllCr
 
 LexicographicOptimization::~LexicographicOptimization()
 {
-    delete mathModel;
-    delete solveStatus;
-    delete relation;
+    if (mathModel != nullptr)
+        delete mathModel;
+    if (solveStatus != nullptr)
+        delete solveStatus;
+    if (relation != nullptr)
+        delete relation;
 }
 
 SolveStatus* LexicographicOptimization::solve() {
+    if (solveStatus->getStatus() == DecisionStatus::Optimal)
+        return solveStatus;
+
+    delete solveStatus;
+    solveStatus = new SolveStatus(None);
+
+    calculateValiditySolveStatus();
     if (solveStatus->getStatus() != DecisionStatus::None)
         return solveStatus;
 
-    if (!mathModel->isValid()) {
-        solveStatus = new SolveStatus(InvalidModel, "invalid math model");
-        return solveStatus;
-    }
-
-    if (!relation->isValid()) {
-        solveStatus = new SolveStatus(InvalidData, "criteria relationships are set incorrectly");
-        return solveStatus;
-    }
-
-    int count = relation->getSequenceSize();
-    int* sequence = relation->getIdSequence();
+    int count = ((AllCriteriaRelation*) relation)->getSequenceSize();
+    int* sequence = ((AllCriteriaRelation*) relation)->getIdSequence();
     for (size_t i = 0; i < count; i++)
     {
         int cid = sequence[i];
@@ -65,4 +65,34 @@ MathModel* LexicographicOptimization::getMathModel() {
 void LexicographicOptimization::setMathModel(MathModel *mathModel) {
     delete mathModel;
     this->mathModel = new MathModel(*mathModel);
+}
+
+void LexicographicOptimization::setCriteriaRelation(CriteriaRelation *relation) {
+    this->relation = CriteriaRelationConverter::convertToAllCriteriaRelation(relation);
+}
+
+void LexicographicOptimization::calculateValiditySolveStatus() {
+    if (mathModel == nullptr) {
+        solveStatus = new SolveStatus(InvalidModel, "math model was null");
+        return;
+    }
+
+    if (relation == nullptr) {
+        solveStatus = new SolveStatus(InvalidData, "relation was null");
+        return;
+    }
+
+    if ((relation = CriteriaRelationConverter::convertToAllCriteriaRelation(relation)) == nullptr) {
+        solveStatus = new SolveStatus(InvalidData, "relation cannot be reduces to AllCriteriaRelation");
+        return;
+    }
+
+    if (!mathModel->isValid()) {
+        solveStatus = new SolveStatus(InvalidModel, "invalid math model");
+        return;
+    }
+
+    if (!relation->isValid()) {
+        solveStatus = new SolveStatus(InvalidData, "criteria relationships are set incorrectly");
+    }
 }

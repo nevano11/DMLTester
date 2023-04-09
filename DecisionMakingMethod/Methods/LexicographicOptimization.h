@@ -9,13 +9,16 @@ class LexicographicOptimization : public OneStepMethod, ProgressingAllAlternativ
 private:
     MathModel* mathModel;
     SolveStatus* solveStatus;
-    AllCriteriaRelation* relation;
+    CriteriaRelation* relation;
+
+    void calculateValiditySolveStatus();
 public:
     LexicographicOptimization();
-    LexicographicOptimization(MathModel *mathModel, AllCriteriaRelation* relation);
+    LexicographicOptimization(MathModel *mathModel, CriteriaRelation* relation);
     ~LexicographicOptimization();
 
     void setMathModel(MathModel* mathModel);
+    void setCriteriaRelation(CriteriaRelation* relation);
 
     SolveStatus* solve();
     MathModel* getMathModel();

@@ -111,19 +111,19 @@ CMakeFiles/DMLTester.dir/MathModel/Components/Criteria.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/MathModel/Components/Criteria.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/Criteria.cpp -o CMakeFiles/DMLTester.dir/MathModel/Components/Criteria.cpp.s
 
-CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/flags.make
-CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/CriteriaRelation.cpp
-CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o -MF CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o.d -o CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/CriteriaRelation.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o -MF CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o.d -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.cpp
 
-CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/CriteriaRelation.cpp > CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.i
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.cpp > CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.i
 
-CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/CriteriaRelation.cpp -o CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.s
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.cpp -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.s
 
 CMakeFiles/DMLTester.dir/MathModel/MathModel.cpp.o: CMakeFiles/DMLTester.dir/flags.make
 CMakeFiles/DMLTester.dir/MathModel/MathModel.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/MathModel.cpp
@@ -139,28 +139,208 @@ CMakeFiles/DMLTester.dir/MathModel/MathModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/MathModel/MathModel.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/MathModel.cpp -o CMakeFiles/DMLTester.dir/MathModel/MathModel.cpp.s
 
-CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o: CMakeFiles/DMLTester.dir/flags.make
-CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.cpp
-CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o -MF CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o.d -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o -MF CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o.d -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.cpp
 
-CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.cpp > CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.i
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.cpp > CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.i
 
-CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.cpp -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.s
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.cpp -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s
+
+CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp
+CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o -MF CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o.d -o CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp
+
+CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp > CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.i
+
+CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp -o CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.s
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o -MF CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o.d -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.cpp
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.cpp > CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.i
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.cpp -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.s
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/SolveStatus.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o -MF CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o.d -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/SolveStatus.cpp
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/SolveStatus.cpp > CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.i
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/SolveStatus.cpp -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.s
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o -MF CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o.d -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp > CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.i
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.s
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o -MF CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o.d -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.cpp
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.cpp > CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.i
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.cpp -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.s
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o -MF CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o.d -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp > CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.i
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o -MF CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o.d -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp > CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.i
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.s
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o -MF CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o.d -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp > CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.i
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp -o CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.s
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelationConverter.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o -MF CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o.d -o CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelationConverter.cpp
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelationConverter.cpp > CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.i
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelationConverter.cpp -o CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.s
+
+CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp
+CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o -MF CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o.d -o CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp
+
+CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp > CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.i
+
+CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp -o CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.s
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o -MF CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o.d -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp > CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.i
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.s
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o: /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o -MF CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o.d -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o -c /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp > CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.i
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp -o CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.s
 
 # Object files for target DMLTester
 DMLTester_OBJECTS = \
 "CMakeFiles/DMLTester.dir/main.cpp.o" \
 "CMakeFiles/DMLTester.dir/MathModel/Components/EstimateVector.cpp.o" \
 "CMakeFiles/DMLTester.dir/MathModel/Components/Criteria.cpp.o" \
-"CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o" \
 "CMakeFiles/DMLTester.dir/MathModel/MathModel.cpp.o" \
-"CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o"
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o" \
+"CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o" \
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o" \
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o" \
+"CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o" \
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o" \
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o"
 
 # External object files for target DMLTester
 DMLTester_EXTERNAL_OBJECTS =
@@ -168,12 +348,24 @@ DMLTester_EXTERNAL_OBJECTS =
 DMLTester: CMakeFiles/DMLTester.dir/main.cpp.o
 DMLTester: CMakeFiles/DMLTester.dir/MathModel/Components/EstimateVector.cpp.o
 DMLTester: CMakeFiles/DMLTester.dir/MathModel/Components/Criteria.cpp.o
-DMLTester: CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o
 DMLTester: CMakeFiles/DMLTester.dir/MathModel/MathModel.cpp.o
-DMLTester: CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o
+DMLTester: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o
 DMLTester: CMakeFiles/DMLTester.dir/build.make
 DMLTester: CMakeFiles/DMLTester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DMLTester"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable DMLTester"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DMLTester.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

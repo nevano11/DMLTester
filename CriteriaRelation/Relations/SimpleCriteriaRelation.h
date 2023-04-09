@@ -8,14 +8,16 @@ class SimpleCriteriaRelation : public CriteriaRelation{
 private:
     Criteria** criteriaArray;
     TwoCriteriaRelation** twoCriteriaRelationArray;
+    int criteriaCount;
+    int relationCount;
 public:
-    SimpleCriteriaRelation(Criteria** criteriaArray, TwoCriteriaRelation** twoCriteriaRelationArray);
+    SimpleCriteriaRelation(Criteria** criteriaArray, TwoCriteriaRelation** twoCriteriaRelationArray, int criteriaCount, int relationCount);
+    SimpleCriteriaRelation();
 
-    virtual AllCriteriaRelation* convertToAllCriteriaRelation() = 0;
-    virtual SimpleCriteriaRelation* convertToSimpleCriteriaRelation() = 0;
-    virtual WeightCriteriaRelation* convertToWeightCriteriaRelation() = 0;
+    int getRelationCount();
+    TwoCriteriaRelation** getTwoCriteriaRelationArray();
 
-    virtual bool isValid() = 0;
+    bool isValid();
 };
 
 

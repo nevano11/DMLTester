@@ -129,29 +129,293 @@ DMLTester/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/build
 .PHONY : DMLTester/fast
 
-DecisionMakingMethod/DecisionMakingMethod.o: DecisionMakingMethod/DecisionMakingMethod.cpp.o
-.PHONY : DecisionMakingMethod/DecisionMakingMethod.o
+CriteriaRelation/CriteriaRelationConverter.o: CriteriaRelation/CriteriaRelationConverter.cpp.o
+.PHONY : CriteriaRelation/CriteriaRelationConverter.o
 
 # target to build an object file
-DecisionMakingMethod/DecisionMakingMethod.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.o
-.PHONY : DecisionMakingMethod/DecisionMakingMethod.cpp.o
+CriteriaRelation/CriteriaRelationConverter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.o
+.PHONY : CriteriaRelation/CriteriaRelationConverter.cpp.o
 
-DecisionMakingMethod/DecisionMakingMethod.i: DecisionMakingMethod/DecisionMakingMethod.cpp.i
-.PHONY : DecisionMakingMethod/DecisionMakingMethod.i
+CriteriaRelation/CriteriaRelationConverter.i: CriteriaRelation/CriteriaRelationConverter.cpp.i
+.PHONY : CriteriaRelation/CriteriaRelationConverter.i
 
 # target to preprocess a source file
-DecisionMakingMethod/DecisionMakingMethod.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.i
-.PHONY : DecisionMakingMethod/DecisionMakingMethod.cpp.i
+CriteriaRelation/CriteriaRelationConverter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.i
+.PHONY : CriteriaRelation/CriteriaRelationConverter.cpp.i
 
-DecisionMakingMethod/DecisionMakingMethod.s: DecisionMakingMethod/DecisionMakingMethod.cpp.s
-.PHONY : DecisionMakingMethod/DecisionMakingMethod.s
+CriteriaRelation/CriteriaRelationConverter.s: CriteriaRelation/CriteriaRelationConverter.cpp.s
+.PHONY : CriteriaRelation/CriteriaRelationConverter.s
 
 # target to generate assembly for a file
-DecisionMakingMethod/DecisionMakingMethod.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakingMethod.cpp.s
-.PHONY : DecisionMakingMethod/DecisionMakingMethod.cpp.s
+CriteriaRelation/CriteriaRelationConverter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.s
+.PHONY : CriteriaRelation/CriteriaRelationConverter.cpp.s
+
+CriteriaRelation/Relations/AllCriteriaRelation.o: CriteriaRelation/Relations/AllCriteriaRelation.cpp.o
+.PHONY : CriteriaRelation/Relations/AllCriteriaRelation.o
+
+# target to build an object file
+CriteriaRelation/Relations/AllCriteriaRelation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.o
+.PHONY : CriteriaRelation/Relations/AllCriteriaRelation.cpp.o
+
+CriteriaRelation/Relations/AllCriteriaRelation.i: CriteriaRelation/Relations/AllCriteriaRelation.cpp.i
+.PHONY : CriteriaRelation/Relations/AllCriteriaRelation.i
+
+# target to preprocess a source file
+CriteriaRelation/Relations/AllCriteriaRelation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.i
+.PHONY : CriteriaRelation/Relations/AllCriteriaRelation.cpp.i
+
+CriteriaRelation/Relations/AllCriteriaRelation.s: CriteriaRelation/Relations/AllCriteriaRelation.cpp.s
+.PHONY : CriteriaRelation/Relations/AllCriteriaRelation.s
+
+# target to generate assembly for a file
+CriteriaRelation/Relations/AllCriteriaRelation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/AllCriteriaRelation.cpp.s
+.PHONY : CriteriaRelation/Relations/AllCriteriaRelation.cpp.s
+
+CriteriaRelation/Relations/SimpleCriteriaRelation.o: CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o
+.PHONY : CriteriaRelation/Relations/SimpleCriteriaRelation.o
+
+# target to build an object file
+CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o
+.PHONY : CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.o
+
+CriteriaRelation/Relations/SimpleCriteriaRelation.i: CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.i
+.PHONY : CriteriaRelation/Relations/SimpleCriteriaRelation.i
+
+# target to preprocess a source file
+CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.i
+.PHONY : CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.i
+
+CriteriaRelation/Relations/SimpleCriteriaRelation.s: CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.s
+.PHONY : CriteriaRelation/Relations/SimpleCriteriaRelation.s
+
+# target to generate assembly for a file
+CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.s
+.PHONY : CriteriaRelation/Relations/SimpleCriteriaRelation.cpp.s
+
+CriteriaRelation/Relations/TwoCriteriaRelation.o: CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o
+.PHONY : CriteriaRelation/Relations/TwoCriteriaRelation.o
+
+# target to build an object file
+CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o
+.PHONY : CriteriaRelation/Relations/TwoCriteriaRelation.cpp.o
+
+CriteriaRelation/Relations/TwoCriteriaRelation.i: CriteriaRelation/Relations/TwoCriteriaRelation.cpp.i
+.PHONY : CriteriaRelation/Relations/TwoCriteriaRelation.i
+
+# target to preprocess a source file
+CriteriaRelation/Relations/TwoCriteriaRelation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.i
+.PHONY : CriteriaRelation/Relations/TwoCriteriaRelation.cpp.i
+
+CriteriaRelation/Relations/TwoCriteriaRelation.s: CriteriaRelation/Relations/TwoCriteriaRelation.cpp.s
+.PHONY : CriteriaRelation/Relations/TwoCriteriaRelation.s
+
+# target to generate assembly for a file
+CriteriaRelation/Relations/TwoCriteriaRelation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/TwoCriteriaRelation.cpp.s
+.PHONY : CriteriaRelation/Relations/TwoCriteriaRelation.cpp.s
+
+CriteriaRelation/Relations/WeightCriteriaRelation.o: CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelation.o
+
+# target to build an object file
+CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelation.cpp.o
+
+CriteriaRelation/Relations/WeightCriteriaRelation.i: CriteriaRelation/Relations/WeightCriteriaRelation.cpp.i
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelation.i
+
+# target to preprocess a source file
+CriteriaRelation/Relations/WeightCriteriaRelation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.i
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelation.cpp.i
+
+CriteriaRelation/Relations/WeightCriteriaRelation.s: CriteriaRelation/Relations/WeightCriteriaRelation.cpp.s
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelation.s
+
+# target to generate assembly for a file
+CriteriaRelation/Relations/WeightCriteriaRelation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelation.cpp.s
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelation.cpp.s
+
+CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.o: CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.o
+
+# target to build an object file
+CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.o
+
+CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.i: CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.i
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.i
+
+# target to preprocess a source file
+CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.i
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.i
+
+CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.s: CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.s
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.s
+
+# target to generate assembly for a file
+CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.s
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp.s
+
+CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.o: CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.o
+
+# target to build an object file
+CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.o
+
+CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.i: CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.i
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.i
+
+# target to preprocess a source file
+CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.i
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.i
+
+CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.s: CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.s
+
+# target to generate assembly for a file
+CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s
+.PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s
+
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.o: DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.o
+
+# target to build an object file
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.o
+
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.i: DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.i
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.i
+
+# target to preprocess a source file
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.i
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.i
+
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.s: DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.s
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.s
+
+# target to generate assembly for a file
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.s
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.s
+
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.o: DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.o
+
+# target to build an object file
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.o
+
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.i: DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.i
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.i
+
+# target to preprocess a source file
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.i
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.i
+
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.s: DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.s
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.s
+
+# target to generate assembly for a file
+DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.s
+.PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.s
+
+DecisionMakingMethod/Methods/CriteriaAggregationMethod.o: DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o
+.PHONY : DecisionMakingMethod/Methods/CriteriaAggregationMethod.o
+
+# target to build an object file
+DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o
+.PHONY : DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.o
+
+DecisionMakingMethod/Methods/CriteriaAggregationMethod.i: DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.i
+.PHONY : DecisionMakingMethod/Methods/CriteriaAggregationMethod.i
+
+# target to preprocess a source file
+DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.i
+.PHONY : DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.i
+
+DecisionMakingMethod/Methods/CriteriaAggregationMethod.s: DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.s
+.PHONY : DecisionMakingMethod/Methods/CriteriaAggregationMethod.s
+
+# target to generate assembly for a file
+DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.s
+.PHONY : DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp.s
+
+DecisionMakingMethod/Methods/LexicographicOptimization.o: DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o
+.PHONY : DecisionMakingMethod/Methods/LexicographicOptimization.o
+
+# target to build an object file
+DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o
+.PHONY : DecisionMakingMethod/Methods/LexicographicOptimization.cpp.o
+
+DecisionMakingMethod/Methods/LexicographicOptimization.i: DecisionMakingMethod/Methods/LexicographicOptimization.cpp.i
+.PHONY : DecisionMakingMethod/Methods/LexicographicOptimization.i
+
+# target to preprocess a source file
+DecisionMakingMethod/Methods/LexicographicOptimization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.i
+.PHONY : DecisionMakingMethod/Methods/LexicographicOptimization.cpp.i
+
+DecisionMakingMethod/Methods/LexicographicOptimization.s: DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s
+.PHONY : DecisionMakingMethod/Methods/LexicographicOptimization.s
+
+# target to generate assembly for a file
+DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s
+.PHONY : DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s
+
+DecisionMakingMethod/SolveStatus.o: DecisionMakingMethod/SolveStatus.cpp.o
+.PHONY : DecisionMakingMethod/SolveStatus.o
+
+# target to build an object file
+DecisionMakingMethod/SolveStatus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.o
+.PHONY : DecisionMakingMethod/SolveStatus.cpp.o
+
+DecisionMakingMethod/SolveStatus.i: DecisionMakingMethod/SolveStatus.cpp.i
+.PHONY : DecisionMakingMethod/SolveStatus.i
+
+# target to preprocess a source file
+DecisionMakingMethod/SolveStatus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.i
+.PHONY : DecisionMakingMethod/SolveStatus.cpp.i
+
+DecisionMakingMethod/SolveStatus.s: DecisionMakingMethod/SolveStatus.cpp.s
+.PHONY : DecisionMakingMethod/SolveStatus.s
+
+# target to generate assembly for a file
+DecisionMakingMethod/SolveStatus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/SolveStatus.cpp.s
+.PHONY : DecisionMakingMethod/SolveStatus.cpp.s
 
 MathModel/Components/Criteria.o: MathModel/Components/Criteria.cpp.o
 .PHONY : MathModel/Components/Criteria.o
@@ -177,30 +441,6 @@ MathModel/Components/Criteria.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/Components/Criteria.cpp.s
 .PHONY : MathModel/Components/Criteria.cpp.s
 
-MathModel/Components/CriteriaRelation.o: MathModel/Components/CriteriaRelation.cpp.o
-.PHONY : MathModel/Components/CriteriaRelation.o
-
-# target to build an object file
-MathModel/Components/CriteriaRelation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.o
-.PHONY : MathModel/Components/CriteriaRelation.cpp.o
-
-MathModel/Components/CriteriaRelation.i: MathModel/Components/CriteriaRelation.cpp.i
-.PHONY : MathModel/Components/CriteriaRelation.i
-
-# target to preprocess a source file
-MathModel/Components/CriteriaRelation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.i
-.PHONY : MathModel/Components/CriteriaRelation.cpp.i
-
-MathModel/Components/CriteriaRelation.s: MathModel/Components/CriteriaRelation.cpp.s
-.PHONY : MathModel/Components/CriteriaRelation.s
-
-# target to generate assembly for a file
-MathModel/Components/CriteriaRelation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/Components/CriteriaRelation.cpp.s
-.PHONY : MathModel/Components/CriteriaRelation.cpp.s
-
 MathModel/Components/EstimateVector.o: MathModel/Components/EstimateVector.cpp.o
 .PHONY : MathModel/Components/EstimateVector.o
 
@@ -225,6 +465,30 @@ MathModel/Components/EstimateVector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/Components/EstimateVector.cpp.s
 .PHONY : MathModel/Components/EstimateVector.cpp.s
 
+MathModel/Converters/Normalizers/MinMaxNormalizer.o: MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o
+.PHONY : MathModel/Converters/Normalizers/MinMaxNormalizer.o
+
+# target to build an object file
+MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o
+.PHONY : MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.o
+
+MathModel/Converters/Normalizers/MinMaxNormalizer.i: MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.i
+.PHONY : MathModel/Converters/Normalizers/MinMaxNormalizer.i
+
+# target to preprocess a source file
+MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.i
+.PHONY : MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.i
+
+MathModel/Converters/Normalizers/MinMaxNormalizer.s: MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.s
+.PHONY : MathModel/Converters/Normalizers/MinMaxNormalizer.s
+
+# target to generate assembly for a file
+MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.s
+.PHONY : MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.s
+
 MathModel/MathModel.o: MathModel/MathModel.cpp.o
 .PHONY : MathModel/MathModel.o
 
@@ -248,6 +512,30 @@ MathModel/MathModel.s: MathModel/MathModel.cpp.s
 MathModel/MathModel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/MathModel/MathModel.cpp.s
 .PHONY : MathModel/MathModel.cpp.s
+
+Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.o: Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o
+.PHONY : Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.o
+
+# target to build an object file
+Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o
+.PHONY : Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.o
+
+Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.i: Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.i
+.PHONY : Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.i
+
+# target to preprocess a source file
+Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.i
+.PHONY : Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.i
+
+Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.s: Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.s
+.PHONY : Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.s
+
+# target to generate assembly for a file
+Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DMLTester.dir/build.make CMakeFiles/DMLTester.dir/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.s
+.PHONY : Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -282,21 +570,57 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DMLTester"
-	@echo "... DecisionMakingMethod/DecisionMakingMethod.o"
-	@echo "... DecisionMakingMethod/DecisionMakingMethod.i"
-	@echo "... DecisionMakingMethod/DecisionMakingMethod.s"
+	@echo "... CriteriaRelation/CriteriaRelationConverter.o"
+	@echo "... CriteriaRelation/CriteriaRelationConverter.i"
+	@echo "... CriteriaRelation/CriteriaRelationConverter.s"
+	@echo "... CriteriaRelation/Relations/AllCriteriaRelation.o"
+	@echo "... CriteriaRelation/Relations/AllCriteriaRelation.i"
+	@echo "... CriteriaRelation/Relations/AllCriteriaRelation.s"
+	@echo "... CriteriaRelation/Relations/SimpleCriteriaRelation.o"
+	@echo "... CriteriaRelation/Relations/SimpleCriteriaRelation.i"
+	@echo "... CriteriaRelation/Relations/SimpleCriteriaRelation.s"
+	@echo "... CriteriaRelation/Relations/TwoCriteriaRelation.o"
+	@echo "... CriteriaRelation/Relations/TwoCriteriaRelation.i"
+	@echo "... CriteriaRelation/Relations/TwoCriteriaRelation.s"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelation.o"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelation.i"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelation.s"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.o"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.i"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.s"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.o"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.i"
+	@echo "... CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.s"
+	@echo "... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.o"
+	@echo "... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.i"
+	@echo "... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.s"
+	@echo "... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.o"
+	@echo "... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.i"
+	@echo "... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.s"
+	@echo "... DecisionMakingMethod/Methods/CriteriaAggregationMethod.o"
+	@echo "... DecisionMakingMethod/Methods/CriteriaAggregationMethod.i"
+	@echo "... DecisionMakingMethod/Methods/CriteriaAggregationMethod.s"
+	@echo "... DecisionMakingMethod/Methods/LexicographicOptimization.o"
+	@echo "... DecisionMakingMethod/Methods/LexicographicOptimization.i"
+	@echo "... DecisionMakingMethod/Methods/LexicographicOptimization.s"
+	@echo "... DecisionMakingMethod/SolveStatus.o"
+	@echo "... DecisionMakingMethod/SolveStatus.i"
+	@echo "... DecisionMakingMethod/SolveStatus.s"
 	@echo "... MathModel/Components/Criteria.o"
 	@echo "... MathModel/Components/Criteria.i"
 	@echo "... MathModel/Components/Criteria.s"
-	@echo "... MathModel/Components/CriteriaRelation.o"
-	@echo "... MathModel/Components/CriteriaRelation.i"
-	@echo "... MathModel/Components/CriteriaRelation.s"
 	@echo "... MathModel/Components/EstimateVector.o"
 	@echo "... MathModel/Components/EstimateVector.i"
 	@echo "... MathModel/Components/EstimateVector.s"
+	@echo "... MathModel/Converters/Normalizers/MinMaxNormalizer.o"
+	@echo "... MathModel/Converters/Normalizers/MinMaxNormalizer.i"
+	@echo "... MathModel/Converters/Normalizers/MinMaxNormalizer.s"
 	@echo "... MathModel/MathModel.o"
 	@echo "... MathModel/MathModel.i"
 	@echo "... MathModel/MathModel.s"
+	@echo "... Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.o"
+	@echo "... Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.i"
+	@echo "... Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

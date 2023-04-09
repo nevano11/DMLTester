@@ -49,7 +49,8 @@ std::string EstimateVector::toString() {
     res += ", marks=[";
     for (int i = 0; i < criteriaCount; ++i) {
         res += std::to_string(marks[i]);
-        res += " ";
+        if (i != criteriaCount - 1)
+            res += ", ";
     }
     res += "]]";
     return res;

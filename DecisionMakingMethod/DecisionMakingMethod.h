@@ -5,7 +5,7 @@
 
 class DecisionMakingMethod {
 protected:
-    SolveStatus* solveStatus;
+    SolveStatus* solveStatus{};
 public:
     virtual SolveStatus* solve() = 0;
 };
