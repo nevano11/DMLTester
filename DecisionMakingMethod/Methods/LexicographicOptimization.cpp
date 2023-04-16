@@ -96,3 +96,7 @@ void LexicographicOptimization::calculateValiditySolveStatus() {
         solveStatus = new SolveStatus(InvalidData, "criteria relationships are set incorrectly");
     }
 }
+
+int LexicographicOptimization::getBestEstimateVectorId() {
+    return mathModel->getEstimateVectorCount() == 1 ? mathModel->getCriteriaArray()[0]->getId() : INT_MIN;
+}

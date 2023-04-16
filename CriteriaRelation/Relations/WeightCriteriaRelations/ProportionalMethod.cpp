@@ -11,7 +11,7 @@ ProportionalMethod::ProportionalMethod(Criteria **criteriaArray, int criteriaCou
 }
 
 bool ProportionalMethod::isValid() {
-    return false;
+    return true;
 }
 
 std::map<int, double> ProportionalMethod::getCriteriaWeightMap() {

@@ -12,7 +12,7 @@ SimpleRankingMethod::SimpleRankingMethod(Criteria **criteriaArray, int criteriaC
 }
 
 bool SimpleRankingMethod::isValid() {
-    return false;
+    return true;
 }
 
 std::map<int, double> SimpleRankingMethod::getCriteriaWeightMap() {

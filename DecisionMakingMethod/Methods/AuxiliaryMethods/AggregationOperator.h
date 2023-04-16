@@ -11,6 +11,7 @@ public:
     virtual std::map<int, double> getEstimateVectorMark(MathModel* normalizedMathModel, WeightCriteriaRelation* weightCriteriaRelation) = 0;
     virtual double getBestValue() = 0;
     virtual int getBestEstimateVectorId() = 0;
+    virtual bool isNeedNormalizedMathModel() = 0;
 };
 
 

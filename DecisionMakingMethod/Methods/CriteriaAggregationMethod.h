@@ -14,10 +14,17 @@ private:
     CriteriaRelation* relation;
     AggregationOperator* aggregationOperator;
     Normalizer* normalizer;
+
+    std::map<int, double> estimateVectorWeight;
+
+    void calculateValiditySolveStatus();
 public:
-    CriteriaAggregationMethod();
-    CriteriaAggregationMethod(MathModel* mathModel);
-    CriteriaAggregationMethod(MathModel* mathModel, WeightCriteriaRelation* relation);
+    CriteriaAggregationMethod(AggregationOperator* aggregationOperator);
+    CriteriaAggregationMethod(AggregationOperator* aggregationOperator, Normalizer* normalizer);
+    CriteriaAggregationMethod(MathModel *mathModel, WeightCriteriaRelation *relation, AggregationOperator* aggregationOperator);
+    CriteriaAggregationMethod(MathModel *mathModel, WeightCriteriaRelation *relation, AggregationOperator* aggregationOperator, Normalizer* normalizer);
+
+    ~CriteriaAggregationMethod();
 
     void setMathModel(MathModel* mathModel);
     void setCriteriaRelation(CriteriaRelation* relation);
@@ -25,6 +32,9 @@ public:
     void setNormalizer(Normalizer* normalizer);
 
     SolveStatus* solve();
+
+    std::map<int, double> getEstimateVectorWeight();
+    int getBestEstimateVectorId();
 };
 
 

@@ -22,6 +22,8 @@ public:
 
     SolveStatus* solve();
     MathModel* getMathModel();
+
+    int getBestEstimateVectorId();
 };
 
 

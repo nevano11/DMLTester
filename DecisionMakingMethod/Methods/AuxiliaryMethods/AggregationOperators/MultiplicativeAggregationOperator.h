@@ -10,6 +10,7 @@ public:
     std::map<int, double> getEstimateVectorMark(MathModel* normalizedMathModel, WeightCriteriaRelation* weightCriteriaRelation);
     double getBestValue();
     int getBestEstimateVectorId();
+    bool isNeedNormalizedMathModel();
 };
 
 

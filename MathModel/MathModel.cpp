@@ -189,3 +189,11 @@ bool MathModel::isDoubleEqual(double a, double b) {
     bool res = std::fabs(a - b) < std::numeric_limits<double>::epsilon();
     return res;
 }
+
+bool MathModel::isNormalized() {
+    for (int i = 0; i < estimateVectorCount; ++i)
+        for (int j = 0; j < criteriaCount; ++j)
+            if (estimateVectorArray[i]->getMarks()[j] > 1 || estimateVectorArray[i]->getMarks()[j] < 0)
+                return false;
+    return true;
+}

@@ -14,7 +14,7 @@ std::map<int, double> MultiplicativeAggregationOperator::getEstimateVectorMark(M
     for (int i = 0; i < estimateVectorCount; ++i) {
         auto estimateVector = estimateVectorArray[i];
         auto marks = estimateVector->getMarks();
-        double res = 0;
+        double res = 1;
         for (int j = 0; j < criteriaCount; ++j) {
             int criteriaId = normalizedMathModel->getCriteriaArray()[j]->getId();
             res *= pow(marks[j], weightCriteriaRelation->getCriteriaWeightMap()[criteriaId]);
@@ -26,7 +26,7 @@ std::map<int, double> MultiplicativeAggregationOperator::getEstimateVectorMark(M
 }
 
 double MultiplicativeAggregationOperator::getBestValue() {
-    if (!estimateVectorValue.empty())
+    if (estimateVectorValue.empty())
         return -1;
 
     double max = INT_MIN;
@@ -37,16 +37,20 @@ double MultiplicativeAggregationOperator::getBestValue() {
 }
 
 int MultiplicativeAggregationOperator::getBestEstimateVectorId() {
-    if (!estimateVectorValue.empty())
+    if (estimateVectorValue.empty())
         return -1;
 
     double max = INT_MIN;
     int id = INT_MIN;
     for (const auto &item: estimateVectorValue) {
         if (item.second > max) {
-            max = item.second > max;
+            max = item.second;
             id = item.first;
         }
     }
     return id;
+}
+
+bool MultiplicativeAggregationOperator::isNeedNormalizedMathModel() {
+    return true;
 }

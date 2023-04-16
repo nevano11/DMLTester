@@ -25,7 +25,7 @@ std::map<int, double> AddictiveAggregationOperator::getEstimateVectorMark(MathMo
 }
 
 double AddictiveAggregationOperator::getBestValue() {
-    if (!estimateVectorValue.empty())
+    if (estimateVectorValue.empty())
         return -1;
 
     double max = INT_MIN;
@@ -36,16 +36,20 @@ double AddictiveAggregationOperator::getBestValue() {
 }
 
 int AddictiveAggregationOperator::getBestEstimateVectorId() {
-    if (!estimateVectorValue.empty())
+    if (estimateVectorValue.empty())
         return -1;
 
     double max = INT_MIN;
     int id = INT_MIN;
     for (const auto &item: estimateVectorValue) {
         if (item.second > max) {
-            max = item.second > max;
+            max = item.second;
             id = item.first;
         }
     }
     return id;
+}
+
+bool AddictiveAggregationOperator::isNeedNormalizedMathModel() {
+    return true;
 }

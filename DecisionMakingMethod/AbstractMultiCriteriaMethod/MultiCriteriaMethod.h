@@ -13,6 +13,7 @@ protected:
 public:
     virtual void setMathModel(MathModel* mathModel) = 0;
     virtual void setCriteriaRelation(CriteriaRelation* relation) = 0;
+    virtual int getBestEstimateVectorId() = 0;
 };
 
 #endif //DMLTESTER_MULTICRITERIAMETHOD_H

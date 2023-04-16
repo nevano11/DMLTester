@@ -41,6 +41,7 @@ public:
     void deleteEstimateVectorIfMarkNotEqualValue(int criteriaNum, double value);
 
     bool isValid();
+    bool isNormalized();
 
     std::string estimateVectorArrayToString();
 };

@@ -4,6 +4,7 @@
 #include "../WeightCriteriaRelation.h"
 #include <map>
 
+// TODO isValid Method
 class SimpleRankingMethod : public WeightCriteriaRelation {
 private:
     std::map<int, double> weightMap;
