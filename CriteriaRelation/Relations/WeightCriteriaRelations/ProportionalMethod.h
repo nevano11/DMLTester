@@ -10,14 +10,13 @@ private:
     std::map<int, double> weightMap;
 protected:
     std::map<int, double> criteriaIdWeightMap;
-    Criteria** criteriaArray;
     int criteriaCount;
 public:
-    ProportionalMethod();
-    ProportionalMethod(Criteria **criteriaArray, int criteriaCount, std::map<int, double> criteriaIdWeightMap);
+    ProportionalMethod(int criteriaCount, std::map<int, double> criteriaIdWeightMap);
 
     std::map<int, double> getCriteriaWeightMap();
     bool isValid();
+    CriteriaRelation* copy();
 };
 
 

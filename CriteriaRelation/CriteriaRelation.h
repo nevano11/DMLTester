@@ -5,10 +5,10 @@
 
 class CriteriaRelation {
 protected:
-    Criteria** criteriaArray;
     int criteriaCount;
 public:
     virtual bool isValid() = 0;
+    virtual CriteriaRelation* copy() = 0;
 };
 
 #endif //DMLTESTER_CRITERIARELATION_H

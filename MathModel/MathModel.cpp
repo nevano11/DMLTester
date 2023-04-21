@@ -16,7 +16,7 @@ MathModel::MathModel(const MathModel &other)
     for (int i = 0; i < criteriaCount; i++) {
         criteriaArray[i] = new Criteria(*other.criteriaArray[i]);
     }
-        
+
     estimateVectorCount = other.estimateVectorCount;
     estimateVectorArray = new EstimateVector*[estimateVectorCount];
     for (int i = 0; i < estimateVectorCount; i++) {
@@ -27,14 +27,19 @@ MathModel::MathModel(const MathModel &other)
 MathModel::~MathModel()
 {
     for (int i = 0; i < criteriaCount; i++) {
-        delete criteriaArray[i];
+        if (criteriaArray != nullptr && criteriaArray[i] != nullptr)
+            delete criteriaArray[i];
     }
-    delete[] criteriaArray;
+
+    if (criteriaArray != nullptr)
+        delete[] criteriaArray;
 
     for (int i = 0; i < estimateVectorCount; i++) {
-        delete estimateVectorArray[i];
+        if (estimateVectorArray != nullptr && estimateVectorArray[i] != nullptr)
+            delete estimateVectorArray[i];
     }
-    delete[] estimateVectorArray;
+    if (estimateVectorArray != nullptr)
+        delete[] estimateVectorArray;
 }
 
 Criteria **MathModel::getCriteriaArray() {

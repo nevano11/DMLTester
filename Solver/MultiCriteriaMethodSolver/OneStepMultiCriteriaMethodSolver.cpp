@@ -21,21 +21,19 @@ void OneStepMultiCriteriaMethodSolver::addMethod(OneStepMethod* method) {
 }
 
 void OneStepMultiCriteriaMethodSolver::addMethods(std::list<OneStepMethod*> methods) {
-    for (const auto &item: methods) {
-        addMethod(item);
+    for (const auto &method: methods) {
+        addMethod(method);
     }
 }
 
 std::map<OneStepMethod*, SolveStatus*> OneStepMultiCriteriaMethodSolver::solve() {
     std::map<OneStepMethod*, SolveStatus*> result;
 
-    for (const auto &item: methods) {
-        item->setMathModel(mathModel);
-        item->setCriteriaRelation(relation);
+    for (const auto &method: methods) {
+        method->setMathModel(mathModel);
+        method->setCriteriaRelation(relation);
 
-        result.emplace(item, item->solve());
+        result.emplace(method, method->solve());
     }
     return result;
 }
-
-

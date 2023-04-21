@@ -1,13 +1,7 @@
 #include "SimpleRankingMethod.h"
 
-SimpleRankingMethod::SimpleRankingMethod() {
-
-}
-
-SimpleRankingMethod::SimpleRankingMethod(Criteria **criteriaArray, int criteriaCount,
-                                         std::map<int, double> criteriaIdRankMap) {
+SimpleRankingMethod::SimpleRankingMethod(int criteriaCount, std::map<int, double> criteriaIdRankMap) {
     this->criteriaCount = criteriaCount;
-    this->criteriaArray = criteriaArray;
     this->criteriaIdRankMap = criteriaIdRankMap;
 }
 
@@ -30,4 +24,8 @@ std::map<int, double> SimpleRankingMethod::getCriteriaWeightMap() {
     }
 
     return weightMap;
+}
+
+CriteriaRelation *SimpleRankingMethod::copy() {
+    return new SimpleRankingMethod(criteriaCount, criteriaIdRankMap);
 }

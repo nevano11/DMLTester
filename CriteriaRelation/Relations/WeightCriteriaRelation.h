@@ -7,11 +7,11 @@
 class WeightCriteriaRelation : public CriteriaRelation{
 protected:
     std::map<int, double> criteriaIdWeightMap;
-    Criteria** criteriaArray;
     int criteriaCount;
 public:
     virtual std::map<int, double> getCriteriaWeightMap() = 0;
     virtual bool isValid() = 0;
+    virtual CriteriaRelation* copy() = 0;
 };
 
 

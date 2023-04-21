@@ -16,7 +16,7 @@ CriteriaAggregationMethod::CriteriaAggregationMethod(AggregationOperator* aggreg
 CriteriaAggregationMethod::CriteriaAggregationMethod(MathModel *mathModel, WeightCriteriaRelation *relation, AggregationOperator* aggregationOperator) {
     this->solveStatus = new SolveStatus(None);
     setMathModel(mathModel);
-    this->relation = relation;
+    this->relation = relation->copy();
     this->aggregationOperator = aggregationOperator;
     normalizer = new MinMaxNormalizer();
 }
@@ -24,7 +24,7 @@ CriteriaAggregationMethod::CriteriaAggregationMethod(MathModel *mathModel, Weigh
 CriteriaAggregationMethod::CriteriaAggregationMethod(MathModel *mathModel, WeightCriteriaRelation *relation, AggregationOperator* aggregationOperator, Normalizer* normalizer) {
     this->solveStatus = new SolveStatus(None);
     setMathModel(mathModel);
-    this->relation = relation;
+    this->relation = relation->copy();
     this->aggregationOperator = aggregationOperator;
     this->normalizer = normalizer;
 }
@@ -47,7 +47,7 @@ void CriteriaAggregationMethod::setMathModel(MathModel *mathModel) {
 }
 
 void CriteriaAggregationMethod::setCriteriaRelation(CriteriaRelation *relation) {
-    this->relation = CriteriaRelationConverter::convertToWeightCriteriaRelation(relation);
+    this->relation = relation->copy();
 }
 
 void CriteriaAggregationMethod::setAggregationOperator(AggregationOperator *aggregationOperator) {
@@ -66,12 +66,18 @@ SolveStatus *CriteriaAggregationMethod::solve() {
     delete solveStatus;
     solveStatus = new SolveStatus(None);
 
+    // method check validity and convert relation to WeightCriteriaRelation
     calculateValiditySolveStatus();
+
     if (solveStatus->getStatus() != DecisionStatus::None)
         return solveStatus;
 
     if (aggregationOperator->isNeedNormalizedMathModel()) {
         auto normalizedMathModel = normalizer->getNormalizedMathModel(mathModel);
+
+        if (!normalizedMathModel->isNormalized())
+            return new SolveStatus(DecisionStatus::InvalidModel, "failed to normalize math model");
+
         delete mathModel;
         mathModel = normalizedMathModel;
     }

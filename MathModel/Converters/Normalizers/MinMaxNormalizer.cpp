@@ -8,11 +8,15 @@ MathModel *MinMaxNormalizer::getNormalizedMathModel(MathModel *original) {
     std::map<int, double> criteriaDeltaMaxMin;
     std::map<int, double> criteriaMin;
 
-    Criteria** criteriaArray = original->getCriteriaArray();
     int criteriaCount = original->getCriteriaCount();
+    
+    Criteria** criteriaArrayNormalized = new Criteria* [criteriaCount];
+    for (int i = 0; i < criteriaCount; ++i) {
+        criteriaArrayNormalized[i] = new Criteria(*original->getCriteriaArray()[i]);
+    }
 
     for (int i = 0; i < criteriaCount; ++i) {
-        int id = criteriaArray[i]->getId();
+        int id = criteriaArrayNormalized[i]->getId();
         int max = original->maxByCriteria(id);
         int min = original->minByCriteria(id);
 
@@ -40,5 +44,5 @@ MathModel *MinMaxNormalizer::getNormalizedMathModel(MathModel *original) {
                 criteriaCount);
     }
 
-    return new MathModel(criteriaArray, criteriaCount,normalizedEstimateVectorArray, estimateVectorCount);
+    return new MathModel(criteriaArrayNormalized, criteriaCount, normalizedEstimateVectorArray, estimateVectorCount);
 }

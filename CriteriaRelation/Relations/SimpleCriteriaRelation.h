@@ -18,6 +18,7 @@ public:
     TwoCriteriaRelation** getTwoCriteriaRelationArray();
 
     bool isValid();
+    CriteriaRelation* copy();
 };
 
 

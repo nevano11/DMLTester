@@ -8,6 +8,9 @@
 class CriteriaRelationConverter {
 private:
     CriteriaRelationConverter();
+
+    static AllCriteriaRelation* convertWeightCriteriaRelationToAllCriteriaRelation(WeightCriteriaRelation* relation);
+    static WeightCriteriaRelation* convertAllCriteriaRelationToWeightCriteriaRelation(AllCriteriaRelation* relation);
 public:
     static AllCriteriaRelation* convertToAllCriteriaRelation(CriteriaRelation* relation);
     static SimpleCriteriaRelation* convertToSimpleCriteriaRelation(CriteriaRelation* relation);

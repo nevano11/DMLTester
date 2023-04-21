@@ -1,12 +1,7 @@
 #include "ProportionalMethod.h"
 
-ProportionalMethod::ProportionalMethod() {
-}
-
-ProportionalMethod::ProportionalMethod(Criteria **criteriaArray, int criteriaCount,
-                                       std::map<int, double> criteriaIdWeightMap) {
+ProportionalMethod::ProportionalMethod(int criteriaCount, std::map<int, double> criteriaIdWeightMap) {
     this->criteriaCount = criteriaCount;
-    this->criteriaArray = criteriaArray;
     this->criteriaIdWeightMap = criteriaIdWeightMap;
 }
 
@@ -28,4 +23,8 @@ std::map<int, double> ProportionalMethod::getCriteriaWeightMap() {
     }
 
     return weightMap;
+}
+
+CriteriaRelation *ProportionalMethod::copy() {
+    return new ProportionalMethod(criteriaCount, criteriaIdWeightMap);
 }

@@ -10,15 +10,14 @@ private:
     std::map<int, double> weightMap;
 protected:
     std::map<int, double> criteriaIdRankMap;
-    Criteria** criteriaArray;
     int criteriaCount;
 public:
-    SimpleRankingMethod();
-    SimpleRankingMethod(Criteria** criteriaArray, int criteriaCount, std::map<int, double> criteriaIdRankMap);
+    SimpleRankingMethod(int criteriaCount, std::map<int, double> criteriaIdRankMap);
 
     std::map<int, double> getCriteriaWeightMap();
 
     bool isValid();
+    CriteriaRelation* copy();
 };
 
 

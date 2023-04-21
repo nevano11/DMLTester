@@ -6,15 +6,15 @@
 
 class AllCriteriaRelation : public CriteriaRelation{
 private:
-    Criteria** criteriaArray;
     int criteriaCount;
     int* idSequence;
 public:
-    AllCriteriaRelation(Criteria** criteriaArray, int criteriaCount, int* idSequence);
+    AllCriteriaRelation(int criteriaCount, int* idSequence);
     int getSequenceSize();
     int* getIdSequence();
 
     bool isValid();
+    CriteriaRelation* copy();
 };
 
 #endif //DMLTESTER_AllCRITERIARELATION_H

@@ -15,7 +15,18 @@
 
 using namespace std;
 
+void doTmth(void (*printFunction)(MathModel* mm), MathModel* mathModel) {
+    cout << "Start mathModel\n";
+    printFunction(mathModel);
+    cout << "================\n";
+}
+
 int main() {
+    int t = 8;
+    auto a = [] (MathModel* mathModel) {
+        std::cout << mathModel->estimateVectorArrayToString();
+    };
+
     // Для каждого метода
     int criteriaCount = 4;
     Criteria** criteriaArray = new Criteria*[criteriaCount];
@@ -36,11 +47,9 @@ int main() {
     pEstimateVectorArray[6] = new EstimateVector(7, "x7", new double [] {180, -60, -50, -8}, criteriaCount);
 
     MathModel* mathModel = new MathModel(criteriaArray, criteriaCount, pEstimateVectorArray, alternativeCount);
-    std::cout << "Start MM\n";
-    std::cout << mathModel->estimateVectorArrayToString();
+    doTmth(a, mathModel);
 
     WeightCriteriaRelation* relation = new ProportionalMethod(
-            criteriaArray,
             criteriaCount,
             std::map<int, double> {
                     { 1, 4 },
@@ -49,19 +58,25 @@ int main() {
                     { 4, 1 }
             });
 
-    auto aggregationOperator = new MultiplicativeAggregationOperator();
-    auto normalizer = new MinMaxNormalizer();
-
     OneStepMultiCriteriaMethodSolver* solver = new OneStepMultiCriteriaMethodSolver(mathModel, relation);
-    solver->addMethod(new CriteriaAggregationMethod(aggregationOperator, normalizer));
+    solver->addMethod(new CriteriaAggregationMethod(new MultiplicativeAggregationOperator(), new MinMaxNormalizer()));
+    solver->addMethod(new LexicographicOptimization());
+    solver->addMethod(new CriteriaAggregationMethod(new MultiplicativeAggregationOperator()));
+    solver->addMethod(new LexicographicOptimization());
     auto mathodStatusMap = solver->solve();
 
     for (const auto& [key, value] : mathodStatusMap) {
-        cout << (value->getStatus() == DecisionStatus::Optimal ? "Optimal" : "Bad");
+
+        if (dynamic_cast<LexicographicOptimization*>(key) != nullptr) {
+            std::cout << "LexicographicOptimization";
+        }
+        if (dynamic_cast<CriteriaAggregationMethod*>(key) != nullptr) {
+            std::cout << "CriteriaAggregationMethod";
+        }
+        cout << (value->getStatus() == DecisionStatus::Optimal ? " Optimal" : " Bad");
         cout << " Best alternative has id = " << key->getBestEstimateVectorId() << endl;
     }
 
-    delete aggregationOperator;
     delete relation;
     delete[] criteriaArray;
     delete[] pEstimateVectorArray;

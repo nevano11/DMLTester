@@ -8,220 +8,228 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option working_dir="C:/Users/User/CLionProjects/DMLTester/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DMLTester">
-				<Option output="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/DMLTester" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option output="C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/DMLTester.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/CLionProjects/DMLTester/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 DMLTester"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 DMLTester"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DMLTester/fast">
-				<Option output="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/DMLTester" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option output="C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/DMLTester.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/User/CLionProjects/DMLTester/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Program Files/JetBrains/CLion 2022.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 DMLTester/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 DMLTester/fast"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option working_dir="C:/Users/User/CLionProjects/DMLTester/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug"/>
+				<Option working_dir="C:/Users/User/CLionProjects/DMLTester/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/JETBRA~1/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/User/CLionProjects/DMLTester/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelation.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/CriteriaRelation.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelationConverter.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/CriteriaRelationConverter.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/CriteriaRelationConverter.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/CriteriaRelationConverter.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/AllCriteriaRelation.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelation.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/ProportionalMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/MultiStepMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/MultiStepMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/OneStepMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/OneStepMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/ProgressingAllAlternativesMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/ProgressingAllAlternativesMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/SequentialNarrowingAlternativesMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/AbstractMultiCriteriaMethod/MultiCriteriaMethods/SequentialNarrowingAlternativesMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/DecisionMakingMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/DecisionMakingMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperator.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperator.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/IdealDistanceAggregationOperator.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/IdealDistanceAggregationOperator.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/CriteriaAggregationMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/SolveStatus.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/DecisionMakingMethod/SolveStatus.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/Criteria.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/SolveStatus.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/Criteria.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/SolveStatus.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/EstimateVector.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/Components/Criteria.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Components/EstimateVector.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/Components/Criteria.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizer.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/Components/EstimateVector.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/Components/EstimateVector.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/Converters/Normalizer.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/MathModel.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/MathModel/MathModel.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/Converters/Normalizers/MinMaxNormalizer.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/MultiCriteriaMethodSolver.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/MathModel.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/MathModel/MathModel.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/Solver/MultiCriteriaMethodSolver/MultiCriteriaMethodSolver.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/Solver/Solver.h">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.cpp">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/main.cpp">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.h">
 			<Option target="DMLTester"/>
 		</Unit>
-		<Unit filename="/Users/ivanvashchilo/Desktop/Deeplom/DMLTester/CMakeLists.txt">
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/Solver/Solver.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/main.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

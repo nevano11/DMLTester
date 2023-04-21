@@ -3,12 +3,14 @@
 LexicographicOptimization::LexicographicOptimization()
 {
     this->solveStatus = new SolveStatus(None);
+    this->mathModel = nullptr;
+    this->relation = nullptr;
 }
 
 LexicographicOptimization::LexicographicOptimization(MathModel *mathModel, CriteriaRelation *relation)
 {
     this->mathModel = new MathModel(*mathModel);
-    this->relation = relation;
+    this->relation = relation->copy();
     this->solveStatus = new SolveStatus(None);
 }
 
@@ -29,6 +31,7 @@ SolveStatus* LexicographicOptimization::solve() {
     delete solveStatus;
     solveStatus = new SolveStatus(None);
 
+    // check validity and convert to AllCriteriaRelation
     calculateValiditySolveStatus();
     if (solveStatus->getStatus() != DecisionStatus::None)
         return solveStatus;
@@ -46,7 +49,7 @@ SolveStatus* LexicographicOptimization::solve() {
         
         int criteriaNum = mathModel->findCriteriaNumById(cid);
 
-        std::cout << "Подход\n";
+        std::cout << "Iteration\n";
         std::cout << "CriteriaNum=" << criteriaNum << " thresholdValue=" << thresholdValue << "\n";
         mathModel->deleteEstimateVectorIfMarkNotEqualValue(criteriaNum, thresholdValue);
         std::cout << mathModel->estimateVectorArrayToString() << "\n";
@@ -63,12 +66,13 @@ MathModel* LexicographicOptimization::getMathModel() {
 }
 
 void LexicographicOptimization::setMathModel(MathModel *mathModel) {
-    delete mathModel;
+    if (this->mathModel != nullptr)
+        delete this->mathModel;
     this->mathModel = new MathModel(*mathModel);
 }
 
 void LexicographicOptimization::setCriteriaRelation(CriteriaRelation *relation) {
-    this->relation = CriteriaRelationConverter::convertToAllCriteriaRelation(relation);
+    this->relation = relation->copy();
 }
 
 void LexicographicOptimization::calculateValiditySolveStatus() {
@@ -98,5 +102,5 @@ void LexicographicOptimization::calculateValiditySolveStatus() {
 }
 
 int LexicographicOptimization::getBestEstimateVectorId() {
-    return mathModel->getEstimateVectorCount() == 1 ? mathModel->getCriteriaArray()[0]->getId() : INT_MIN;
+    return mathModel->getEstimateVectorCount() == 1 ? mathModel->getEstimateVectorArray()[0]->getId() : INT_MIN;
 }

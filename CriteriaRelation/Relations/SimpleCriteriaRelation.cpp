@@ -60,3 +60,8 @@ int SimpleCriteriaRelation::getRelationCount() {
 SimpleCriteriaRelation::SimpleCriteriaRelation() {
 
 }
+
+// TODO
+CriteriaRelation *SimpleCriteriaRelation::copy() {
+    return nullptr;
+}
