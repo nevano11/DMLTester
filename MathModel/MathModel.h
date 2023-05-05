@@ -1,6 +1,7 @@
 #ifndef DMLTESTER_MATHMODEL_H
 #define DMLTESTER_MATHMODEL_H
 
+#include <vector>
 #include "Components/Criteria.h"
 #include "Components/EstimateVector.h"
 
@@ -39,6 +40,7 @@ public:
     double minByCriteria(std::string criteriaName);
 
     void deleteEstimateVectorIfMarkNotEqualValue(int criteriaNum, double value);
+    void deleteEstimateVectorByPredicate(int criteriaNum, bool (*deletePredicate)(double, std::vector<double>), std::vector<double> secondAttributes);
 
     bool isValid();
     bool isNormalized();

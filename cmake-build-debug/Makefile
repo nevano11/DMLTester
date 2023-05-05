@@ -296,6 +296,54 @@ CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s
 .PHONY : CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.cpp.s
 
+DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.obj: DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj
+.PHONY : DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.obj
+
+# target to build an object file
+DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj
+.PHONY : DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj
+
+DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.i: DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.i
+.PHONY : DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.i
+
+# target to preprocess a source file
+DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.i
+.PHONY : DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.i
+
+DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.s: DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.s
+.PHONY : DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.s
+
+# target to generate assembly for a file
+DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.s
+.PHONY : DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.s
+
+DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.obj: DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj
+.PHONY : DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.obj
+
+# target to build an object file
+DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj
+.PHONY : DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj
+
+DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.i: DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.i
+.PHONY : DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.i
+
+# target to preprocess a source file
+DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.i
+.PHONY : DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.i
+
+DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.s: DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.s
+.PHONY : DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.s
+
+# target to generate assembly for a file
+DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.s
+.PHONY : DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.s
+
 DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.obj: DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.obj
 .PHONY : DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.obj
 
@@ -415,6 +463,30 @@ DecisionMakingMethod/Methods/LexicographicOptimization.s: DecisionMakingMethod/M
 DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s
 .PHONY : DecisionMakingMethod/Methods/LexicographicOptimization.cpp.s
+
+DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.obj: DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj
+.PHONY : DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.obj
+
+# target to build an object file
+DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj
+.PHONY : DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj
+
+DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.i: DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.i
+.PHONY : DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.i
+
+# target to preprocess a source file
+DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.i
+.PHONY : DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.i
+
+DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.s: DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.s
+.PHONY : DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.s
+
+# target to generate assembly for a file
+DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DMLTester.dir\build.make CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.s
+.PHONY : DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.s
 
 DecisionMakingMethod/SolveStatus.obj: DecisionMakingMethod/SolveStatus.cpp.obj
 .PHONY : DecisionMakingMethod/SolveStatus.obj
@@ -614,6 +686,12 @@ help:
 	@echo ... CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.obj
 	@echo ... CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.i
 	@echo ... CriteriaRelation/Relations/WeightCriteriaRelations/SimpleRankingMethod.s
+	@echo ... DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.obj
+	@echo ... DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.i
+	@echo ... DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.s
+	@echo ... DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.obj
+	@echo ... DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.i
+	@echo ... DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.s
 	@echo ... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.obj
 	@echo ... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.i
 	@echo ... DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.s
@@ -629,6 +707,9 @@ help:
 	@echo ... DecisionMakingMethod/Methods/LexicographicOptimization.obj
 	@echo ... DecisionMakingMethod/Methods/LexicographicOptimization.i
 	@echo ... DecisionMakingMethod/Methods/LexicographicOptimization.s
+	@echo ... DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.obj
+	@echo ... DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.i
+	@echo ... DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.s
 	@echo ... DecisionMakingMethod/SolveStatus.obj
 	@echo ... DecisionMakingMethod/SolveStatus.i
 	@echo ... DecisionMakingMethod/SolveStatus.s

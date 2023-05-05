@@ -145,7 +145,22 @@
 		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo.h">
 			<Option target="DMLTester"/>
 		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.h">
+			<Option target="DMLTester"/>
+		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/DecisionMakingMethod.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.h">
 			<Option target="DMLTester"/>
 		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperator.h">
@@ -179,6 +194,12 @@
 			<Option target="DMLTester"/>
 		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/LexicographicOptimization.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.h">
 			<Option target="DMLTester"/>
 		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/DMLTester/DecisionMakingMethod/SolveStatus.cpp">

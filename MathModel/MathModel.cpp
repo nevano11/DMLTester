@@ -164,6 +164,25 @@ void MathModel::deleteEstimateVectorIfMarkNotEqualValue(int criteriaNum, double 
     estimateVectorArray = tmpArray;
 }
 
+void MathModel::deleteEstimateVectorByPredicate(int criteriaNum, bool(*deletePredicate)(double, std::vector<double>), std::vector<double> secondAttributes)
+{
+    int deleteCount = 0;
+    for (int i = 0; i < estimateVectorCount; i++)
+        if (deletePredicate(estimateVectorArray[i]->getMarks()[criteriaNum], secondAttributes))
+            deleteCount++;
+
+    estimateVectorCount = estimateVectorCount - deleteCount;
+    EstimateVector** tmpArray = new EstimateVector*[estimateVectorCount];
+
+    int j = 0;
+    for (size_t i = 0; i < estimateVectorCount + deleteCount; i++) {
+        if (!deletePredicate(estimateVectorArray[i]->getMarks()[criteriaNum], secondAttributes))
+            tmpArray[j++] = new EstimateVector(*estimateVectorArray[i]);
+        delete estimateVectorArray[i];
+    }
+    delete[] estimateVectorArray;
+    estimateVectorArray = tmpArray;
+}
 
 bool MathModel::isValid()
 {

@@ -3,10 +3,12 @@
 
 #include "../MultiCriteriaMethod.h"
 #include "../../DecisionMakerInfo/DecisionMakerInfo.h"
+#include "../../IntermediateMethodData/IntermediateMethodData.h"
 
 class MultiStepMethod : public MultiCriteriaMethod {
 public:
-    virtual SolveStatus* makeIteration(DecisionMakerInfo decisionMakingInfo) = 0;
+    virtual SolveStatus* makeIteration(DecisionMakerInfo* decisionMakingInfo) = 0;
+    virtual IntermediateMethodData* getIntermediateMethodData() = 0;
 };
 
 

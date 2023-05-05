@@ -24,6 +24,7 @@ public:
 
     DecisionStatus getStatus();
     std::string getMessage();
+    std::string toString();
 };
 
 

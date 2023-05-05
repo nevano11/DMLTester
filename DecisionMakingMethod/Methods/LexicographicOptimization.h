@@ -4,8 +4,9 @@
 #include "../AbstractMultiCriteriaMethod/MultiCriteriaMethods/OneStepMethod.h"
 #include "../AbstractMultiCriteriaMethod/MultiCriteriaMethods/ProgressingAllAlternativesMethod.h"
 #include "../../CriteriaRelation/Relations/AllCriteriaRelation.h"
+#include "../AbstractMultiCriteriaMethod/MultiCriteriaMethods/SequentialNarrowingAlternativesMethod.h"
 
-class LexicographicOptimization : public OneStepMethod, ProgressingAllAlternativesMethod {
+class LexicographicOptimization : public OneStepMethod, SequentialNarrowingAlternativesMethod {
 private:
     MathModel* mathModel;
     SolveStatus* solveStatus;

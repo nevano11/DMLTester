@@ -334,6 +334,48 @@ CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/Aggregati
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/IdealDistanceAggregationOperator.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\Methods\AuxiliaryMethods\AggregationOperators\IdealDistanceAggregationOperator.cpp -o CMakeFiles\DMLTester.dir\DecisionMakingMethod\Methods\AuxiliaryMethods\AggregationOperators\IdealDistanceAggregationOperator.cpp.s
 
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj: ../DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj -MF CMakeFiles\DMLTester.dir\DecisionMakingMethod\Methods\SuccessiveConcessionsMethod.cpp.obj.d -o CMakeFiles\DMLTester.dir\DecisionMakingMethod\Methods\SuccessiveConcessionsMethod.cpp.obj -c C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\Methods\SuccessiveConcessionsMethod.cpp
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\Methods\SuccessiveConcessionsMethod.cpp > CMakeFiles\DMLTester.dir\DecisionMakingMethod\Methods\SuccessiveConcessionsMethod.cpp.i
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\Methods\SuccessiveConcessionsMethod.cpp -o CMakeFiles\DMLTester.dir\DecisionMakingMethod\Methods\SuccessiveConcessionsMethod.cpp.s
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj: ../DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj -MF CMakeFiles\DMLTester.dir\DecisionMakingMethod\DecisionMakerInfo\DecisionMakerInfo\CedeValueInfo.cpp.obj.d -o CMakeFiles\DMLTester.dir\DecisionMakingMethod\DecisionMakerInfo\DecisionMakerInfo\CedeValueInfo.cpp.obj -c C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\DecisionMakerInfo\DecisionMakerInfo\CedeValueInfo.cpp
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\DecisionMakerInfo\DecisionMakerInfo\CedeValueInfo.cpp > CMakeFiles\DMLTester.dir\DecisionMakingMethod\DecisionMakerInfo\DecisionMakerInfo\CedeValueInfo.cpp.i
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\DecisionMakerInfo\DecisionMakerInfo\CedeValueInfo.cpp -o CMakeFiles\DMLTester.dir\DecisionMakingMethod\DecisionMakerInfo\DecisionMakerInfo\CedeValueInfo.cpp.s
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj: ../DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj -MF CMakeFiles\DMLTester.dir\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp.obj.d -o CMakeFiles\DMLTester.dir\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp.obj -c C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp > CMakeFiles\DMLTester.dir\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp.i
+
+CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp -o CMakeFiles\DMLTester.dir\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp.s
+
 # Object files for target DMLTester
 DMLTester_OBJECTS = \
 "CMakeFiles/DMLTester.dir/main.cpp.obj" \
@@ -354,7 +396,10 @@ DMLTester_OBJECTS = \
 "CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxNormalizer.cpp.obj" \
 "CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.obj" \
 "CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.obj" \
-"CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/IdealDistanceAggregationOperator.cpp.obj"
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/IdealDistanceAggregationOperator.cpp.obj" \
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj" \
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj" \
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj"
 
 # External object files for target DMLTester
 DMLTester_EXTERNAL_OBJECTS =
@@ -378,11 +423,14 @@ DMLTester.exe: CMakeFiles/DMLTester.dir/MathModel/Converters/Normalizers/MinMaxN
 DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/AddictiveAggregationOperator.cpp.obj
 DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/MultiplicativeAggregationOperator.cpp.obj
 DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/IdealDistanceAggregationOperator.cpp.obj
+DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj
+DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj
+DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj
 DMLTester.exe: CMakeFiles/DMLTester.dir/build.make
 DMLTester.exe: CMakeFiles/DMLTester.dir/linklibs.rsp
 DMLTester.exe: CMakeFiles/DMLTester.dir/objects1.rsp
 DMLTester.exe: CMakeFiles/DMLTester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable DMLTester.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable DMLTester.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DMLTester.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

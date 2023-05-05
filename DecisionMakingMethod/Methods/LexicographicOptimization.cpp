@@ -1,3 +1,4 @@
+#include <cmath>
 #include "LexicographicOptimization.h"
 
 LexicographicOptimization::LexicographicOptimization()
@@ -47,11 +48,13 @@ SolveStatus* LexicographicOptimization::solve() {
             mathModel->maxByCriteria(cid):
             mathModel->minByCriteria(cid);
         
-        int criteriaNum = mathModel->findCriteriaNumById(cid);
+        int criteriaId = mathModel->findCriteriaNumById(cid);
 
         std::cout << "Iteration\n";
-        std::cout << "CriteriaNum=" << criteriaNum << " thresholdValue=" << thresholdValue << "\n";
-        mathModel->deleteEstimateVectorIfMarkNotEqualValue(criteriaNum, thresholdValue);
+        std::cout << "CriteriaNum=" << criteriaId << " thresholdValue=" << thresholdValue << "\n";
+        mathModel->deleteEstimateVectorByPredicate(criteriaId, [](double mark, std::vector<double> attributes){
+            return !std::fabs(mark - attributes[0]) < std::numeric_limits<double>::epsilon();
+        }, {thresholdValue});
         std::cout << mathModel->estimateVectorArrayToString() << "\n";
 
         if (mathModel->getEstimateVectorCount() == 1)
