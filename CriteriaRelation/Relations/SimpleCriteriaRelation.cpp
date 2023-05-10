@@ -1,22 +1,20 @@
 #include "SimpleCriteriaRelation.h"
 #include <set>
 
-SimpleCriteriaRelation::SimpleCriteriaRelation(Criteria **criteriaArray,
-                                               TwoCriteriaRelation **twoCriteriaRelationArray,
+SimpleCriteriaRelation::SimpleCriteriaRelation(TwoCriteriaRelation **twoCriteriaRelationArray,
                                                int criteriaCount, int relationCount) {
     this->criteriaCount = criteriaCount;
     this->relationCount = relationCount;
-    this->criteriaArray = criteriaArray;
 
-    twoCriteriaRelationArray = new TwoCriteriaRelation*[relationCount];
+    this->twoCriteriaRelationArray = new TwoCriteriaRelation*[relationCount];
     for (int i = 0; i < relationCount; i++) {
-        twoCriteriaRelationArray[i] = new TwoCriteriaRelation(*twoCriteriaRelationArray[i]);
+        this->twoCriteriaRelationArray[i] = new TwoCriteriaRelation(*twoCriteriaRelationArray[i]);
     }
     delete twoCriteriaRelationArray;
 }
 
 bool SimpleCriteriaRelation::isValid() {
-    if (criteriaCount < 1 || relationCount < 1 || criteriaArray == nullptr || twoCriteriaRelationArray == nullptr)
+    if (criteriaCount < 1 || relationCount < 1 || twoCriteriaRelationArray == nullptr)
         return false;
 
     std::set<int> idOnRelationSet;
@@ -28,13 +26,6 @@ bool SimpleCriteriaRelation::isValid() {
             idOnRelationSet.insert(twoCriteriaRelationArray[i]->getFirstCriteriaId());
             idOnRelationSet.insert(twoCriteriaRelationArray[i]->getSecondCriteriaId());
         }
-    }
-
-    for (int i = 0; i < criteriaCount; ++i) {
-        if (criteriaArray[i] == nullptr)
-            return false;
-        else
-            idOnRelationSet.erase(criteriaArray[i]->getId());
     }
 
     if (idOnRelationSet.size() != 0)

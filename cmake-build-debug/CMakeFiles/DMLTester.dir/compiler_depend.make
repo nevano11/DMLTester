@@ -87,6 +87,10 @@ CMakeFiles/DMLTester.dir/CriteriaRelation/CriteriaRelationConverter.cpp.obj: ../
   C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/unordered_map.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
   C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h \
+  C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
   ../CriteriaRelation/CriteriaRelationConverter.h \
   ../CriteriaRelation/Relations/AllCriteriaRelation.h \
   ../MathModel/Components/Criteria.h \
@@ -3639,6 +3643,16 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/1
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/execution_defs.h:
 
+C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h:
+
+C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc:
+
 ../CriteriaRelation/CriteriaRelationConverter.h:
 
 ../CriteriaRelation/Relations/AllCriteriaRelation.h:
@@ -3710,10 +3724,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/1
 C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/atomicity.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/x86_64-w64-mingw32/include/pthread.h:
 
@@ -3904,12 +3914,6 @@ C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/1
 ../MathModel/MathModel.cpp:
 
 ../Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/allocated_ptr.h:
-
-C:/Program\ Files/JetBrains/CLion\ 2022.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc:
 
 ../Solver/MultiCriteriaMethodSolver/MultiCriteriaMethodSolver.h:
 

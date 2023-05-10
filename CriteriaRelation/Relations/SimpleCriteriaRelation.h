@@ -6,12 +6,11 @@
 
 class SimpleCriteriaRelation : public CriteriaRelation{
 private:
-    Criteria** criteriaArray;
     TwoCriteriaRelation** twoCriteriaRelationArray;
     int criteriaCount;
     int relationCount;
 public:
-    SimpleCriteriaRelation(Criteria** criteriaArray, TwoCriteriaRelation** twoCriteriaRelationArray, int criteriaCount, int relationCount);
+    SimpleCriteriaRelation(TwoCriteriaRelation** twoCriteriaRelationArray, int criteriaCount, int relationCount);
     SimpleCriteriaRelation();
 
     int getRelationCount();

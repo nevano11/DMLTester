@@ -4,8 +4,10 @@ TwoCriteriaRelation::TwoCriteriaRelation(int firstCriteriaId, CriteriaConstraint
         firstId(firstCriteriaId), secondId(secondCriteriaId), constraint(constraint) {
 }
 
-TwoCriteriaRelation::TwoCriteriaRelation(const TwoCriteriaRelation& other)
-        : firstId(other.firstId), secondId(other.secondId), constraint(other.constraint) {
+TwoCriteriaRelation::TwoCriteriaRelation(const TwoCriteriaRelation& other) {
+    firstId = other.firstId;
+    secondId = other.secondId;
+    constraint = other.constraint;
 }
 
 int TwoCriteriaRelation::getFirstCriteriaId() {

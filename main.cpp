@@ -49,28 +49,39 @@ int main() {
 
     MathModel* mathModel = new MathModel(criteriaArray, criteriaCount, pEstimateVectorArray, alternativeCount);
 
-    CriteriaRelation* relation = new AllCriteriaRelation(
+    CriteriaRelation* relation = new SimpleRankingMethod(
             criteriaCount,
-            new int[] {1, 2, 3, 4}
+            {{1, 1.5}, {2, 1.5}, {3, 3.5}, {4, 3.5}}
             );
 
-    SuccessiveConcessionsMethod* method = new SuccessiveConcessionsMethod(mathModel, relation);
-    SolveStatus* solveStatus = method->solve();
-    double cedeValue = 0;
+    relation = CriteriaRelationConverter::convertToWeightCriteriaRelation(relation);
 
-    while (solveStatus->getStatus() != DecisionStatus::Optimal && solveStatus->getStatus() != DecisionStatus::Feasible) {
-        doTmth(a, method->getMathModel());
-        cout << solveStatus->toString() << endl;
-        if (method->getIntermediateMethodData() != nullptr)
-            cout << method->getIntermediateMethodData()->toString() << endl;
-        cout << "Enter cede value ";
-        cin >> cedeValue;
+    relation = CriteriaRelationConverter::convertToSimpleCriteriaRelation(relation);
+
+    int relationCount = ((SimpleCriteriaRelation* )relation)->getRelationCount();
+    auto relations = ((SimpleCriteriaRelation* )relation)->getTwoCriteriaRelationArray();
+    for (int i = 0; i < relationCount; ++i) {
+        cout << relations[i]->getFirstCriteriaId();
+        switch (relations[i]->getConstraint()) {
+            case CriteriaConstraint::More:
+                cout << " > ";
+                break;
+            case CriteriaConstraint::Less:
+                cout << " < ";
+                break;
+            case CriteriaConstraint::MoreOrEquivalent:
+                cout << " >= ";
+                break;
+            case CriteriaConstraint::LessOrEquivalent:
+                cout << " <= ";
+                break;
+            case CriteriaConstraint::Equivalent:
+                cout << " ~ ";
+                break;
+        }
+        cout << relations[i]->getSecondCriteriaId();
         cout << endl;
-        solveStatus = method->makeIteration(new CedeValueInfo(cedeValue));
     }
-
-    doTmth(a, method->getMathModel());
-    cout << solveStatus->toString() << endl;
 
     delete relation;
     delete[] criteriaArray;
@@ -79,6 +90,8 @@ int main() {
 
     return 0;
 }
+
+// OneStepSolver
 
 //    OneStepMultiCriteriaMethodSolver* solver = new OneStepMultiCriteriaMethodSolver(mathModel, relation);
 //    solver->addMethod(new CriteriaAggregationMethod(new MultiplicativeAggregationOperator(), new MinMaxNormalizer()));
@@ -97,4 +110,22 @@ int main() {
 //        }
 //        cout << (value->getStatus() == DecisionStatus::Optimal ? " Optimal" : " Bad");
 //        cout << " Best alternative has id = " << key->getBestEstimateVectorId() << endl;
+//    }
+
+
+// Multi Criteria Method
+
+//    SuccessiveConcessionsMethod* method = new SuccessiveConcessionsMethod(mathModel, relation);
+//    SolveStatus* solveStatus = method->solve();
+//    double cedeValue = 0;
+//
+//    while (solveStatus->getStatus() != DecisionStatus::Optimal && solveStatus->getStatus() != DecisionStatus::Feasible) {
+//        doTmth(a, method->getMathModel());
+//        cout << solveStatus->toString() << endl;
+//        if (method->getIntermediateMethodData() != nullptr)
+//            cout << method->getIntermediateMethodData()->toString() << endl;
+//        cout << "Enter cede value ";
+//        cin >> cedeValue;
+//        cout << endl;
+//        solveStatus = method->makeIteration(new CedeValueInfo(cedeValue));
 //    }

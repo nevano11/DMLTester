@@ -1,10 +1,11 @@
 #include <vector>
 #include <algorithm>
+#include <list>
 #include "CriteriaRelationConverter.h"
 #include "Relations/WeightCriteriaRelations/SimpleRankingMethod.h"
 
+// Simple to all
 AllCriteriaRelation *CriteriaRelationConverter::convertToAllCriteriaRelation(CriteriaRelation *relation) {
-    // if failed return null
     if (dynamic_cast<WeightCriteriaRelation*>(relation) != nullptr) {
         return convertWeightCriteriaRelationToAllCriteriaRelation(dynamic_cast<WeightCriteriaRelation*>(relation));
     }
@@ -18,22 +19,22 @@ AllCriteriaRelation *CriteriaRelationConverter::convertToAllCriteriaRelation(Cri
     return nullptr;
 }
 
+// Weight to simple
+// All to simple
 SimpleCriteriaRelation *CriteriaRelationConverter::convertToSimpleCriteriaRelation(CriteriaRelation *relation) {
     if (dynamic_cast<WeightCriteriaRelation*>(relation) != nullptr) {
-        std::cout << "WeightCriteriaRelation to SimpleCriteriaRelation" << std::endl;
-        return nullptr;
+        return convertWeightCriteriaRelationToSimpleCriteriaRelation((WeightCriteriaRelation*) relation);
     }
     if (dynamic_cast<SimpleCriteriaRelation*>(relation) != nullptr) {
-        std::cout << "SimpleCriteriaRelation to SimpleCriteriaRelation" << std::endl;
         return (SimpleCriteriaRelation*) relation;
     }
     if (dynamic_cast<AllCriteriaRelation*>(relation) != nullptr) {
-        std::cout << "AllCriteriaRelation to SimpleCriteriaRelation" << std::endl;
-        return nullptr;
+        return convertAllCriteriaRelationToSimpleCriteriaRelation((AllCriteriaRelation*) relation);
     }
     return nullptr;
 }
 
+// Simple to Weight
 WeightCriteriaRelation *CriteriaRelationConverter::convertToWeightCriteriaRelation(CriteriaRelation *relation) {
     if (dynamic_cast<WeightCriteriaRelation*>(relation) != nullptr) {
         return (WeightCriteriaRelation*) relation;
@@ -91,4 +92,49 @@ WeightCriteriaRelation* CriteriaRelationConverter::convertAllCriteriaRelationToW
     }
     delete relation;
     return new SimpleRankingMethod(relation->getSequenceSize(), criteriaIdRankMap);
+}
+
+SimpleCriteriaRelation *
+CriteriaRelationConverter::convertAllCriteriaRelationToSimpleCriteriaRelation(AllCriteriaRelation *relation) {
+    int* idSequence = relation->getIdSequence();
+    int count = relation->getSequenceSize();
+
+    TwoCriteriaRelation** twoCriteriaRelationArray = new TwoCriteriaRelation* [count - 1];
+
+    for (int i = 0; i < count - 1; ++i)
+        twoCriteriaRelationArray[i] = new TwoCriteriaRelation(idSequence[i], CriteriaConstraint::More, idSequence[i+1]);
+
+    delete relation;
+    return new SimpleCriteriaRelation(twoCriteriaRelationArray, count, count - 1);
+}
+
+SimpleCriteriaRelation *
+CriteriaRelationConverter::convertWeightCriteriaRelationToSimpleCriteriaRelation(WeightCriteriaRelation *relation) {
+    auto map = relation->getCriteriaWeightMap();
+    int criteriaCount = map.size();
+    int* idSequence = new int[criteriaCount];
+
+    int i = 0;
+    for (const auto &item: map) {
+        idSequence[i++] = item.first;
+    }
+
+    std::list<TwoCriteriaRelation*> relations;
+
+    for (int j = 0; j < criteriaCount - 1; ++j) {
+        for (int k = j + 1; k < criteriaCount; ++k) {
+            double firstWeight = map[idSequence[j]];
+            double secondWeight = map[idSequence[k]];
+            if (firstWeight > secondWeight)
+                relations.emplace_back(new TwoCriteriaRelation(idSequence[j], CriteriaConstraint::More, idSequence[k]));
+            else if (firstWeight < secondWeight)
+                relations.emplace_back(new TwoCriteriaRelation(idSequence[j], CriteriaConstraint::Less, idSequence[k]));
+            else
+                relations.emplace_back(new TwoCriteriaRelation(idSequence[j], CriteriaConstraint::Equivalent, idSequence[k]));
+        }
+    }
+
+    TwoCriteriaRelation** relationArray = new TwoCriteriaRelation* [relations.size()];
+    std::copy(relations.begin(), relations.end(), relationArray);
+    return new SimpleCriteriaRelation(relationArray, criteriaCount, relations.size());
 }
