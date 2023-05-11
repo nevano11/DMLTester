@@ -103,6 +103,18 @@
 		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelation.h">
 			<Option target="DMLTester"/>
 		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.h">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp">
+			<Option target="DMLTester"/>
+		</Unit>
+		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.h">
+			<Option target="DMLTester"/>
+		</Unit>
 		<Unit filename="C:/Users/User/CLionProjects/DMLTester/CriteriaRelation/Relations/TwoCriteriaRelation.cpp">
 			<Option target="DMLTester"/>
 		</Unit>

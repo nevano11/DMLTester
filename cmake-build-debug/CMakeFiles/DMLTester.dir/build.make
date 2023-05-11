@@ -376,6 +376,34 @@ CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/Intermediat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\DMLTester\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp -o CMakeFiles\DMLTester.dir\DecisionMakingMethod\IntermediateMethodData\IntermediateMethodData\SuccessiveConcessionsIntermediateData.cpp.s
 
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.obj: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.obj: ../CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.obj: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.obj -MF CMakeFiles\DMLTester.dir\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\SimpleCriteriaRelationUtil.cpp.obj.d -o CMakeFiles\DMLTester.dir\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\SimpleCriteriaRelationUtil.cpp.obj -c C:\Users\User\CLionProjects\DMLTester\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\SimpleCriteriaRelationUtil.cpp
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\DMLTester\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\SimpleCriteriaRelationUtil.cpp > CMakeFiles\DMLTester.dir\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\SimpleCriteriaRelationUtil.cpp.i
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\DMLTester\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\SimpleCriteriaRelationUtil.cpp -o CMakeFiles\DMLTester.dir\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\SimpleCriteriaRelationUtil.cpp.s
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.obj: CMakeFiles/DMLTester.dir/flags.make
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.obj: ../CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.obj: CMakeFiles/DMLTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.obj -MF CMakeFiles\DMLTester.dir\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\Node.cpp.obj.d -o CMakeFiles\DMLTester.dir\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\Node.cpp.obj -c C:\Users\User\CLionProjects\DMLTester\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\Node.cpp
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\CLionProjects\DMLTester\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\Node.cpp > CMakeFiles\DMLTester.dir\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\Node.cpp.i
+
+CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\CLionProjects\DMLTester\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\Node.cpp -o CMakeFiles\DMLTester.dir\CriteriaRelation\Relations\SimpleCriteriaRelationUtils\Node.cpp.s
+
 # Object files for target DMLTester
 DMLTester_OBJECTS = \
 "CMakeFiles/DMLTester.dir/main.cpp.obj" \
@@ -399,7 +427,9 @@ DMLTester_OBJECTS = \
 "CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMethods/AggregationOperators/IdealDistanceAggregationOperator.cpp.obj" \
 "CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj" \
 "CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj" \
-"CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj"
+"CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.obj" \
+"CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.obj"
 
 # External object files for target DMLTester
 DMLTester_EXTERNAL_OBJECTS =
@@ -426,11 +456,13 @@ DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/AuxiliaryMe
 DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.cpp.obj
 DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.cpp.obj
 DMLTester.exe: CMakeFiles/DMLTester.dir/DecisionMakingMethod/IntermediateMethodData/IntermediateMethodData/SuccessiveConcessionsIntermediateData.cpp.obj
+DMLTester.exe: CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.cpp.obj
+DMLTester.exe: CMakeFiles/DMLTester.dir/CriteriaRelation/Relations/SimpleCriteriaRelationUtils/Node.cpp.obj
 DMLTester.exe: CMakeFiles/DMLTester.dir/build.make
 DMLTester.exe: CMakeFiles/DMLTester.dir/linklibs.rsp
 DMLTester.exe: CMakeFiles/DMLTester.dir/objects1.rsp
 DMLTester.exe: CMakeFiles/DMLTester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable DMLTester.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\CLionProjects\DMLTester\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable DMLTester.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DMLTester.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

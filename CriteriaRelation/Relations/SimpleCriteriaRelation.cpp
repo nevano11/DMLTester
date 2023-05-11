@@ -56,3 +56,7 @@ SimpleCriteriaRelation::SimpleCriteriaRelation() {
 CriteriaRelation *SimpleCriteriaRelation::copy() {
     return nullptr;
 }
+
+int SimpleCriteriaRelation::getCriteriaCount() {
+    return criteriaCount;
+}

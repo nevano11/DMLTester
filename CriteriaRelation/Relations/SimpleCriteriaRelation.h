@@ -14,6 +14,7 @@ public:
     SimpleCriteriaRelation();
 
     int getRelationCount();
+    int getCriteriaCount();
     TwoCriteriaRelation** getTwoCriteriaRelationArray();
 
     bool isValid();
