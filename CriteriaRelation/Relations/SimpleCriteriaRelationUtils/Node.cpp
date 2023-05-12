@@ -51,6 +51,7 @@ void Node::setDepth(int depth, int criteriaCount) {
         this->depth = depth;
     if (depth >= criteriaCount) {
         this->depth = INT_MIN;
+        return;
     }
     for (const auto &childNode: childNodes) {
         childNode->setDepth(this->depth + 1, criteriaCount);
