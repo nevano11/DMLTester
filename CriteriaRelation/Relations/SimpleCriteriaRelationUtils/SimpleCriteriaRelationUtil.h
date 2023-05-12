@@ -3,13 +3,25 @@
 
 #include "Node.h"
 #include "../SimpleCriteriaRelation.h"
+#include "../AllCriteriaRelation.h"
+#include "../WeightCriteriaRelations/SimpleRankingMethod.h"
 
 class SimpleCriteriaRelationUtil {
 private:
-    Node* root;
+    Node* root = nullptr;
     bool isValid = true;
+    SimpleCriteriaRelation* simpleCriteriaRelation;
+
+    void printNode(int level, Node* node);
+    bool nodeToLexicograficOptimization(int *idSequence, Node* node);
+    bool nodeToWeightOptimization(Node* node, int maxMark, std::map<int, double>& criteriaMarkMap);
 public:
-    SimpleCriteriaRelationUtil(SimpleCriteriaRelation* simpleCriteriaRelation);
+    SimpleCriteriaRelationUtil(SimpleCriteriaRelation *simpleCriteriaRelation);
+    ~SimpleCriteriaRelationUtil();
+    void print();
+
+    AllCriteriaRelation* toAllCriteriaRelation();
+    SimpleRankingMethod* toWeightCriteriaRelation();
 };
 
 

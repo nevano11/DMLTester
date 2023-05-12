@@ -3,6 +3,7 @@
 #include <list>
 #include "CriteriaRelationConverter.h"
 #include "Relations/WeightCriteriaRelations/SimpleRankingMethod.h"
+#include "Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.h"
 
 // Simple to all
 AllCriteriaRelation *CriteriaRelationConverter::convertToAllCriteriaRelation(CriteriaRelation *relation) {
@@ -10,8 +11,7 @@ AllCriteriaRelation *CriteriaRelationConverter::convertToAllCriteriaRelation(Cri
         return convertWeightCriteriaRelationToAllCriteriaRelation(dynamic_cast<WeightCriteriaRelation*>(relation));
     }
     if (dynamic_cast<SimpleCriteriaRelation*>(relation) != nullptr) {
-        std::cout << "SimpleCriteriaRelation to AllCriteriaRelation" << std::endl;
-        return nullptr;
+        return convertSimpleCriteriaRelationToAllCriteriaRelation(dynamic_cast<SimpleCriteriaRelation*>(relation));
     }
     if (dynamic_cast<AllCriteriaRelation*>(relation) != nullptr) {
         return (AllCriteriaRelation*) relation;
@@ -136,5 +136,24 @@ CriteriaRelationConverter::convertWeightCriteriaRelationToSimpleCriteriaRelation
 
     TwoCriteriaRelation** relationArray = new TwoCriteriaRelation* [relations.size()];
     std::copy(relations.begin(), relations.end(), relationArray);
+    delete relation;
     return new SimpleCriteriaRelation(relationArray, criteriaCount, relations.size());
+}
+
+AllCriteriaRelation *
+CriteriaRelationConverter::convertSimpleCriteriaRelationToAllCriteriaRelation(SimpleCriteriaRelation *relation) {
+    SimpleCriteriaRelationUtil* util = new SimpleCriteriaRelationUtil(relation);
+    auto aCR = util->toAllCriteriaRelation();
+    delete relation;
+    delete util;
+    return aCR;
+}
+
+WeightCriteriaRelation *
+CriteriaRelationConverter::convertSimpleCriteriaRelationToWeightCriteriaRelation(SimpleCriteriaRelation *relation) {
+    SimpleCriteriaRelationUtil* util = new SimpleCriteriaRelationUtil(relation);
+    auto wCR = util->toWeightCriteriaRelation();
+    delete relation;
+    delete util;
+    return wCR;
 }

@@ -1,3 +1,4 @@
+#include <climits>
 #include "Node.h"
 
 Node::Node() {
@@ -13,13 +14,12 @@ std::set<Node *> Node::getChildNodes() {
 }
 
 void Node::addCriteriaOnNode(int criteriaId) {
-    criteriaIdSet.emplace(criteriaId);
+    criteriaIdSet.insert(criteriaId);
 }
 
 void Node::addChildNode(Node *childNode) {
-    if (childNode == nullptr)
-        return;
-    childNodes.emplace(childNode);
+    if (childNode != nullptr)
+        childNodes.insert(childNode);
 }
 
 std::set<int> Node::getCriteriaIdSet() {
@@ -36,4 +36,30 @@ Node *Node::find(int criteriaId) {
             return findNode;
     }
     return nullptr;
+}
+
+bool Node::containsCriteria(int criteriaId) {
+    return criteriaIdSet.find(criteriaId) != criteriaIdSet.end();
+}
+
+int Node::getDepth() {
+    return depth;
+}
+
+void Node::setDepth(int depth, int criteriaCount) {
+    if (this->depth < depth)
+        this->depth = depth;
+    if (depth >= criteriaCount) {
+        this->depth = INT_MIN;
+    }
+    for (const auto &childNode: childNodes) {
+        childNode->setDepth(this->depth + 1, criteriaCount);
+    }
+}
+
+void Node::deleteChilds() {
+    for (const auto &childNode: childNodes) {
+        childNode->deleteChilds();
+        delete childNode;
+    }
 }

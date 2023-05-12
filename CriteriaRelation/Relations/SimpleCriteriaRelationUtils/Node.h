@@ -6,7 +6,7 @@
 class Node {
 private:
     std::set<int> criteriaIdSet;
-    int depth;
+    int depth = -1;
     std::set<Node*> childNodes;
 public:
     Node();
@@ -15,10 +15,17 @@ public:
     void addCriteriaOnNode(int criteriaId);
     void addChildNode(Node* childNode);
 
+    bool containsCriteria(int criteriaId);
+
     std::set<Node*> getChildNodes();
     std::set<int> getCriteriaIdSet();
 
+    int getDepth();
+    void setDepth(int depth, int criteriaCount);
+
     Node *find(int criteriaId);
+
+    void deleteChilds();
 };
 
 

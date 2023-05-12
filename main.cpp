@@ -14,6 +14,7 @@
 #include "Solver/MultiCriteriaMethodSolver/OneStepMultiCriteriaMethodSolver.h"
 #include "DecisionMakingMethod/Methods/SuccessiveConcessionsMethod.h"
 #include "DecisionMakingMethod/DecisionMakerInfo/DecisionMakerInfo/CedeValueInfo.h"
+#include "CriteriaRelation/Relations/SimpleCriteriaRelationUtils/SimpleCriteriaRelationUtil.h"
 
 using namespace std;
 
@@ -51,11 +52,10 @@ int main() {
 
     CriteriaRelation* relation = new SimpleRankingMethod(
             criteriaCount,
-            {{1, 1.5}, {2, 1.5}, {3, 3.5}, {4, 3.5}}
+            {{1, 1.5}, {2, 1.5}, {3, 3}, {4, 4}}
             );
 
     relation = CriteriaRelationConverter::convertToWeightCriteriaRelation(relation);
-
     relation = CriteriaRelationConverter::convertToSimpleCriteriaRelation(relation);
 
     int relationCount = ((SimpleCriteriaRelation* )relation)->getRelationCount();
@@ -83,6 +83,18 @@ int main() {
         cout << endl;
     }
 
+    SimpleCriteriaRelationUtil* simpleCriteriaRelationUtil = new SimpleCriteriaRelationUtil((SimpleCriteriaRelation*) relation);
+
+    auto res = simpleCriteriaRelationUtil->toWeightCriteriaRelation();
+    if (res == nullptr)
+        cout << "NULL";
+    else {
+        for (const auto& pair : res->getCriteriaWeightMap()) {
+            std::cout << pair.first << ": " << pair.second << std::endl;
+        }
+    }
+    delete res;
+    delete simpleCriteriaRelationUtil;
     delete relation;
     delete[] criteriaArray;
     delete[] pEstimateVectorArray;

@@ -10,7 +10,10 @@ private:
     CriteriaRelationConverter();
 
     static AllCriteriaRelation* convertWeightCriteriaRelationToAllCriteriaRelation(WeightCriteriaRelation* relation);
+    static AllCriteriaRelation* convertSimpleCriteriaRelationToAllCriteriaRelation(SimpleCriteriaRelation* relation);
+
     static WeightCriteriaRelation* convertAllCriteriaRelationToWeightCriteriaRelation(AllCriteriaRelation* relation);
+    static WeightCriteriaRelation* convertSimpleCriteriaRelationToWeightCriteriaRelation(SimpleCriteriaRelation* relation);
 
     static SimpleCriteriaRelation* convertAllCriteriaRelationToSimpleCriteriaRelation(AllCriteriaRelation* relation);
     static SimpleCriteriaRelation* convertWeightCriteriaRelationToSimpleCriteriaRelation(WeightCriteriaRelation* relation);
